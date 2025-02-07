@@ -1,0 +1,421 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  width: 1440px;
+}
+
+.container {
+  background-image: url(./image/HeroImage.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.logo img {
+  width: 80px;
+  height: auto;
+}
+
+.header {
+  color: white;
+  display: flex;
+  justify-content: space-evenly;
+  display: flex;
+  align-items: center;
+}
+.hero-container {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+.menu {
+  display: flex;
+  gap: 64px;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  color: white;
+  font-size: 50px;
+}
+.location-container {
+  background-image: url(./image/Location\ image.png);
+ 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center ;
+ 
+  height: 100%;
+  width: 100%;
+}
+.location-container {
+  
+
+  height: 370px;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  position: relative;
+ 
+}
+
+#box1 {
+  background-image: url(./image/HOVER1.png);
+}
+#box2 {
+  background-image: url(./image/HOVER2.png);
+}
+#box3 {
+  background-image: url(./image/HOVER3.png);
+}
+#box4 {
+  background-image: url(./image/HOVER4.png);
+}
+
+.box-card {
+  background-size: cover;
+  border-radius: 40px;
+  box-shadow: 8px 8px 0px 0px #29728b40, -8px -8px 0px 0px #1f72aa75;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+.map {
+  background-image: url(./image/Roadmap.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1022px;
+  width: 100%;
+  /* position: relative; */
+  /* top: 100px; */
+  ;
+}
+
+#destination {
+  margin-top: 100px;
+}
+.roadmap {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 40px;
+  text-align: center;
+}
+
+#get-ready {
+  color: white;
+}
+.left-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 80px;
+  align-items: start;
+  padding-left: 1px;
+  position: relative;
+
+}
+.left-container > * {
+  width: 300px;
+  height: 60px;
+  
+}
+
+.map-card {
+  height: 112px;
+  width: 513px;
+  border-radius: 120px;
+  border-width: 3px;
+  border-color: transparent;
+  border-style: solid;
+  padding: 0 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+ 
+}
+
+.sukhbaatar {
+  background-color: rgb(255, 238, 215);
+}
+.sukhbaatar:hover {
+  border: 3px solid white;
+}
+
+.amarbaysgalant {
+  background-color: #8bb8c1;
+}
+
+.amarbaysgalant:hover {
+  border: 3px solid white;
+}
+
+.khorgiin-togoo {
+  background-color: #aad8d7cc;
+}
+
+.khorgiin-togoo:hover {
+  border: 3px solid white;
+}
+
+.terkh {
+  background-color: #8bc0bdcc;
+}
+
+.terkh:hover {
+  border: 3px solid white;
+}
+
+.khuvsgul {
+  border-width: 3px;
+  border-color: transparent;
+  border-style: solid;
+  padding: 0 15px;
+  background-color: #97cce0cc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.khuvsgul:hover {
+  border: 3px solid white;
+}
+
+.map-photo {
+  position: absolute;
+  width: 245px;
+  height: 245;
+  display: none;
+}
+
+.map-photo img {
+  width: 245px;
+  height: 245;
+}
+
+.photo1 {
+  left: 1100px;
+  top: 200px;
+}
+.photo2 {
+  left: 850px;
+  top: 150px;
+}
+.photo3 {
+  left: 750px;
+  top: 190px;
+}
+.photo4 {
+  left: 650px;
+  top: 130px;
+}
+.photo5 {
+  left: 900px;
+  top: 170px;
+}
+.sukhbaatar:hover ~ .photo1 {
+  display: block;
+}
+.amarbaysgalant:hover ~ .photo2 {
+  display: block;
+}
+.khorgiin-togoo:hover ~ .photo3 {
+  display: block;
+}
+.terkh:hover ~ .photo4 {
+  display: block;
+}
+.khuvsgul:hover ~ .photo5 {
+  display: block;
+}
+
+.day {
+  background: #fff;
+
+  width: 50px;
+  height: 50px;
+
+  border-radius: 100%;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer {
+  background-image: url(./image/Price&Footer\ image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+
+
+}
+ .text { 
+   display: flex; 
+  align-items: center;
+  flex-direction: column; 
+  padding: 50px; 
+  margin: 30px;
+  font-size: 30px;
+  
+} 
+#choose {
+  color: white;
+}
+
+.pricing {
+  padding: 40px;
+ 
+}
+
+.choose {
+  color: #333;
+}
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column; 
+
+}
+
+.package_card {
+  padding: 20px;
+  width: 100%;
+  justify-content: space-around;
+  display: flex;
+
+}
+
+.icon{
+ display: flex;
+ /* flex-direction: column; */
+ align-items: center;
+ gap: 10px;
+ width: 100%;
+
+ 
+}
+
+.group{
+  gap: 16px;
+}
+
+.package {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+padding-inline: 30px;
+padding-block: 30px;
+  background-color: white;
+  width: 300px;
+  height: 370px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+border-radius: 40px;
+
+}
+
+
+.package h3 {
+  color: #222;
+}
+
+.price {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+.desc {
+  font-style: italic;
+  color: #555;
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 5px 0;
+  color: #444;
+}
+
+button {
+  background: #a4d1e2;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 80%;
+  border-radius: 20px;
+ 
+
+}
+
+button:hover {
+  background: #0056b3;
+  
+}
+.instagram{
+  background-color: white;
+  border-width: 3px;
+  border-radius: 100px;
+  padding: 10 10px;
+  border-style: hidden;
+  display: flex;
+  align-items: center;
+  color: #6972B5;
+}
+.facebook{
+
+  background-color: white;
+  border-width: 3px;
+  border-radius: 100px;
+  
+  border-style:hidden;
+  display: flex;
+  align-items: center;
+ color: #6972B5;
+}
+/* .content{
+
+  gap: 50px;
+} */
+/*
+.popular {
+  border: 2px solid #ff9800;
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  background: #ff9800;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+}
